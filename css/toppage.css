@@ -1,0 +1,36 @@
+body {
+    background: url('../img/topphoto2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover; 
+}
+
+
+.sima {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    border: 2px solid #afeeee;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: #afeeee;
+    margin: 3px 0 3px 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #afeeee;
+    background: #fafafa;
+    opacity: 0.75;
+}
